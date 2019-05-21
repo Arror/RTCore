@@ -1,0 +1,6 @@
+framework module RTCore {
+  umbrella header "RTCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

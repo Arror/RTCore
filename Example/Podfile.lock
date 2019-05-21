@@ -1,0 +1,16 @@
+PODS:
+  - RTCore (0.1.0)
+
+DEPENDENCIES:
+  - RTCore (from `../`)
+
+EXTERNAL SOURCES:
+  RTCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTCore: 4f3effd4b79ca0bbc374d5bdeb61fbe68d9b0735
+
+PODFILE CHECKSUM: 1faf269d81d3f5e69b50d3a01aeeda165facf78b
+
+COCOAPODS: 1.7.0.rc.2
