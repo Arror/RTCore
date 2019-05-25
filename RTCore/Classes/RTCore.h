@@ -16,8 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)invokeTarget:(id)target
               action:(SEL)action
-          parameters:(NSDictionary<NSString *,id> *)parameters
-          completion:(void (^)(NSDictionary<NSString *,id> *))completion;
+          parameters:(NSData *)parameters
+          completion:(void (^)(NSData *))completion;
 
 @end
 
