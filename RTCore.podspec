@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'RTCore'
-  s.version          = '0.2.0'
-  s.summary          = 'A short description of RTCore.'
+  s.version          = '0.3.0'
+  s.summary          = 'Core object for meesage forward.'
 
   s.description      = <<-DESC
-                        Add long description of the pod here.
+                        Core object for meesage forward.
                        DESC
 
   s.homepage         = 'https://github.com/Arror/RTCore'
