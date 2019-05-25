@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)invokeTarget:(id)target
               action:(SEL)action
-          parameters:(NSData *)parameters
+          parameter:(NSData *)parameter
           completion:(void (^)(NSData *))completion;
 
 @end
