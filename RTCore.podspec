@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RTCore'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Core object for meesage forward.'
 
   s.description      = <<-DESC
