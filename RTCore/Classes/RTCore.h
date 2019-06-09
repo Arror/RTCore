@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RTCore: NSObject
 
-+ (id _Nullable)targetFromName:(NSString *)name;
-
 - (void)invokeTarget:(id)target
               action:(SEL)action
           parameter:(NSData *)parameter

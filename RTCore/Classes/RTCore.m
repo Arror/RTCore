@@ -10,10 +10,6 @@
 
 @implementation RTCore
 
-+ (id)targetFromName:(NSString *)name {
-    return [[NSClassFromString(name) alloc] init];
-}
-
 - (void)invokeTarget:(id)target
               action:(SEL)action
           parameter:(NSData *)parameter
